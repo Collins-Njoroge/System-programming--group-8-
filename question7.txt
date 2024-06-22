@@ -1,0 +1,5 @@
+The program crashes at line 19 when the value of i is 0 during the first iteration of the for loop.
+this line:
+d1 = (double)n / (double)i; // Line 19
+
+Since 'i' is 0, this line attempts to perform division by zero, leading to a runtime error.
